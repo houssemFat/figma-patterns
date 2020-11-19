@@ -12,7 +12,7 @@ I tried to work with the webpack plugin
 
 #### How svg are used  
 
-Under `tools` folder, the script `transform.js` loads all the svg files inside `tools/svg`, optimize them with  `svgo` and then extract all defined color to be customized after. 
+Under `tools` folder, the script `transform.js` loads all the svg files inside `tools/svg`, optimize them with  `svgo` and then extract all defined colors to be customized later. 
 
 #### Build 
 
