@@ -34,7 +34,7 @@ The `manifest.json` file defines the plugin name and the code (js/css) locations
 
 ### Inline code in html 
 
-I tried to build this plugin following the webpack tutorial from figma, but the inline plugin used to put css in the html didn't work. So I copied the [inline plugin ](webpack/inline.plugin.js) from facebook [react-inline-plugin-tool](https://github.com/facebook/create-react-app/blob/master/packages/react-dev-utils/InlineChunkHtmlPlugin.js), i just copied the code to avoid installing all the package.
+I tried to build this plugin following the webpack tutorial from figma, but the inline plugin used to put css in the html didn't work. So I used this [inline plugin ](webpack/inline.plugin.js) from facebook [react-inline-plugin-tool](https://github.com/facebook/create-react-app/blob/master/packages/react-dev-utils/InlineChunkHtmlPlugin.js), i just copied the code to avoid installing all the package.
  
 
 ### Bundling with webpack 
