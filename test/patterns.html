@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test patterns</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+
+	let url = "data:image/svg+xml,<svg width='61' height='60' viewBox='0 0 61 60' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(%23clip0)'><path d='M9.79967 1.69559C6.57878 3.57444 3.32664 5.39011 0.19632 7.41561' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M43.1693 0.805389C39.1473 3.21858 34.8183 5.03497 30.7332 7.35718C22.4792 12.0493 14.8054 17.9004 6.26501 22.0592C3.30575 23.5002 0.214157 24.4775 -2.86007 25.6161C-3.1384 25.7192 -3.37886 26.0733 -3.62416 26.2573' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M27.835 -0.45929C17.6518 3.58992 9.81062 7.11522 0 12' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M35.4231 -0.617401C27.9056 3.14133 21.0805 7.9129 13.7829 12.0471C6.11765 16.3895 5.78561 16.5289 -2.5 19.5' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M60.5588 -1.24973C53.7419 1.84888 47.0886 5.28607 40.3677 8.58674C35.1838 11.1326 30.1776 13.998 25.0772 16.7018C19.625 19.5922 15.1764 24.0899 9.5 26.5C4.14645 28.773 4.35244 28.2308 -1 30.5' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M62.1397 5.0737C52.864 9.69727 43.4192 13.9606 34.2287 18.7569C25.2289 23.4537 17.8155 30.8884 8.33769 34.7675C4.68751 36.2615 0.618832 36.7088 -2.97425 38.342C-3.75675 38.6977 -4.46048 39.3223 -5.20502 39.6946' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M65.1433 9.02585C57.7983 12.0251 51.1299 16.8698 44.3462 20.9174C38.5165 24.3958 32.8714 28.1519 26.7811 31.1755C22.6259 33.2383 18.4363 35.2027 14.345 37.3935C9.01748 40.2463 3.6543 42.5696 -2.00817 44.6655' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M65.7757 13.9265C64.4019 14.3845 63.2548 15.1533 62.0167 15.8938C58.9972 17.6999 55.8879 19.3548 52.8389 21.1107C46.8867 24.5385 41.0283 28.1423 35.265 31.8781C31.19 34.5196 27.1419 37.2932 22.8026 39.4926C19.6194 41.106 16.2755 42.3936 13.0803 43.9805C7.85599 46.5751 3.12112 49.9455 -2.55267 51.5159' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M67.0403 18.6691C62.6412 20.345 58.5749 23.3362 54.7974 26.0816C49.5514 29.8944 44.048 33.2885 38.4794 36.6031C35.9238 38.1243 33.3492 39.6251 30.8737 41.2754C28.6756 42.7409 26.6065 44.4012 24.3571 45.7897C20.1479 48.3877 15.2267 49.4145 10.9198 51.8145C6.60385 54.2196 2.10898 56.2182 -2.07843 58.8581C-2.5658 59.1654 -4.57639 61.1097 -5.04694 60.4039' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M66.408 25.6249C62.7798 27.0762 59.6424 29.5735 56.4661 31.799C54.6581 33.0659 52.7937 34.2616 51.0385 35.6019C48.0432 37.8892 45.6381 40.8083 42.8356 43.313C38.7612 46.9544 34.2745 49.4845 29.3983 51.8672C25.3242 53.8579 21.2926 55.9234 17.2256 57.9272C14.7907 59.1268 12.4674 60.3684 9.85706 61.124C9.17038 61.3228 8.87303 61.9422 8.26742 62.2306C7.72494 62.489 6.84805 63.9164 6.65143 62.9332' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M66.7242 34.3196C62.9757 36.8843 59.3033 39.5191 55.746 42.3469C52.2605 45.1176 49.0089 48.1856 45.3825 50.7782C42.0557 53.1566 38.5421 54.9664 34.6854 56.2936C31.9737 57.2268 29.0486 57.9887 26.4825 59.2972C24.3839 60.3674 22.6646 62.2872 20.686 63.6007C19.0271 64.702 17.1526 65.3265 15.3286 66.0949C15.3091 66.1032 13.0642 67.2933 13.6072 66.5692' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M65.4595 42.382C57.702 48.9826 50.5911 56.2886 42.8532 62.8981C41.557 64.0052 40.2355 65.0751 38.9274 66.1652C38.4664 66.5494 37.6384 67.0642 38.5848 66.253' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/><path d='M65.9337 49.654C59.4842 53.2965 53.3637 57.1661 49.0185 63.2494' stroke='%23C4C4C4' stroke-linecap='round' stroke-linejoin='round'/></g><defs><clipPath id='clip0'><rect width='61' height='60' fill='white'/></clipPath></defs></svg>%0A";
+   // let url = 'data:image/svg+xml;<svg%20id%3D%22pattern_10%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2073%2060%22><circle%20cx%3D%224%22%20cy%3D%224%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2217%22%20cy%3D%224%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2230%22%20cy%3D%224%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2243%22%20cy%3D%224%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2256%22%20cy%3D%224%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2269%22%20cy%3D%224%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%224%22%20cy%3D%2217%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2217%22%20cy%3D%2217%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2230%22%20cy%3D%2217%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2243%22%20cy%3D%2217%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2256%22%20cy%3D%2217%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2269%22%20cy%3D%2217%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%224%22%20cy%3D%2230%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2217%22%20cy%3D%2230%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2243%22%20cy%3D%2230%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2256%22%20cy%3D%2230%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2269%22%20cy%3D%2230%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%224%22%20cy%3D%2243%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2217%22%20cy%3D%2243%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2230%22%20cy%3D%2243%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2243%22%20cy%3D%2243%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2256%22%20cy%3D%2243%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2269%22%20cy%3D%2243%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%224%22%20cy%3D%2256%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2217%22%20cy%3D%2256%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2230%22%20cy%3D%2256%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2243%22%20cy%3D%2256%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle><circle%20cx%3D%2256%22%20cy%3D%2256%22%20r%3D%224%22%20fill%3D%22%23C4C4C4%22></circle><circle%20cx%3D%2269%22%20cy%3D%2256%22%20r%3D%224%22%20fill%3D%22%23344048%22></circle></svg>
+
+		function convert(pattern, cb) {
+		// Select the image
+		const image = new Image();
+		image.src = url;
+		const canvas = document.getElementById('canvas');
+		const ctx = canvas.getContext('2d');
+		canvas.width = image.width;
+		canvas.height = image.height;
+		// Draw the image
+		ctx.drawImage(image, 0, 0);
+		image.addEventListener('load', function () {
+			setTimeout(() => {
+				canvas.toBlob(blob => {
+					if (blob) {
+						const reader = new FileReader()
+						// @ts-ignore
+						reader.onload = () => cb(null, new Uint8Array(reader.result))
+						reader.onerror = () => cb(new Error('Could not read from blob'))
+						reader.readAsArrayBuffer(blob);
+						console.log('ok');
+					}
+
+				})
+			}, 300);
+		});
+	}
+	convert('', (err, r) => {
+		console.log(r)
+	})
+</script>
+</body>
+</html>

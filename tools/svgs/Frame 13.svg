@@ -1,0 +1,61 @@
+<svg width="64" height="61" viewBox="0 0 64 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M29.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M34.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M49.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M54.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M44.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M4.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M9.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M14.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M24.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M19.5 -1.5V62.5" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M19.5 -1.5V62.5" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M39.5 -1.5V62.5" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M59.5 -1.5V62.5" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M29.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M34.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M49.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M54.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M44.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M4.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M9.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M14.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M24.5 -1.5V62.5" stroke="#C4C4C4"/>
+<path d="M19.5 -1.5V62.5" stroke="#C4C4C4" stroke-linejoin="bevel"/>
+<path d="M19.5 -1.5V62.5" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M39.5 -1.5V62.5" stroke="#C4C4C4" stroke-linejoin="bevel"/>
+<path d="M59.5 -1.5V62.5" stroke="#C4C4C4" stroke-linejoin="bevel"/>
+<path d="M0 33L64 33" stroke="#C4C4C4"/>
+<path d="M0 28L64 28" stroke="#C4C4C4"/>
+<path d="M0 13L64 13" stroke="#C4C4C4"/>
+<path d="M0 8L64 8" stroke="#C4C4C4"/>
+<path d="M0 18L64 18" stroke="#C4C4C4"/>
+<path d="M0 58L64 58" stroke="#C4C4C4"/>
+<path d="M0 53L64 53" stroke="#C4C4C4"/>
+<path d="M0 48L64 48" stroke="#C4C4C4"/>
+<path d="M0 38L64 38" stroke="#C4C4C4"/>
+<path d="M0 43L64 43" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M0 43L64 43" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M0 23L64 23" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M0 3L64 3" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M0 33L64 33" stroke="#C4C4C4"/>
+<path d="M0 28L64 28" stroke="#C4C4C4"/>
+<path d="M0 13L64 13" stroke="#C4C4C4"/>
+<path d="M0 8L64 8" stroke="#C4C4C4"/>
+<path d="M0 18L64 18" stroke="#C4C4C4"/>
+<path d="M0 58L64 58" stroke="#C4C4C4"/>
+<path d="M0 53L64 53" stroke="#C4C4C4"/>
+<path d="M0 48L64 48" stroke="#C4C4C4"/>
+<path d="M0 38L64 38" stroke="#C4C4C4"/>
+<path d="M0 43L64 43" stroke="#C4C4C4" stroke-linejoin="bevel"/>
+<path d="M0 43L64 43" stroke="#C4C4C4" stroke-linejoin="bevel" stroke-dasharray="5 1 2 5 1 2"/>
+<path d="M0 23L64 23" stroke="#C4C4C4" stroke-linejoin="bevel"/>
+<path d="M0 3L64 3" stroke="#C4C4C4" stroke-linejoin="bevel"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="61" height="64" fill="white" transform="translate(0 61) rotate(-90)"/>
+</clipPath>
+</defs>
+</svg>
