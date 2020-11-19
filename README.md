@@ -38,7 +38,7 @@ I tried to build this plugin following the webpack tutorial from figma, but the 
  
 
 ### Bundling with webpack 
-I used parcel before switching to webpack but it was complicated to add all necessary plugins to parcel which is supposed to work in mode 'out-of-the-box' 
+I tried to used parcel before switching to webpack but it was complicated to add all plugins to parcel.
 
 ### Licence
 [MIT](https://opensource.org/licenses/MIT)
